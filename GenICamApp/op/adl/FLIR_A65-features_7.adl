@@ -99,7 +99,7 @@
     		clr=2
     	}
     }
-
+    
 		text {
 			object {
 				x=0
@@ -110,7 +110,7 @@
 			"basic attribute" {
 				clr=54
 			}
-			textix="FLIR-A65 Features Screen #7 - $(P)$(R)"
+			textix="FLIR_A65 Features Screen #7 - $(P)$(R)"
 			align="horiz. centered"
 		}
     # (Rectangle)
@@ -126,7 +126,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -151,7 +151,7 @@
     	textix="  ObjectParameters"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -175,7 +175,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ObjectEmissivity"
+				chan="$(P)$(R)GC_ObjectEmissivity"
 				clr=14
 				bclr=51
 			}
@@ -191,7 +191,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ObjectEmissivity_RBV"
+				chan="$(P)$(R)GC_ObjectEmissivity_RBV"
 				clr=54
 				bclr=4
 			}
@@ -199,7 +199,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -223,7 +223,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)EmissInternal"
+				chan="$(P)$(R)GC_EmissInternal"
 				clr=14
 				bclr=51
 			}
@@ -239,7 +239,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)EmissInternal_RBV"
+				chan="$(P)$(R)GC_EmissInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -247,7 +247,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -271,7 +271,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)RefTemperature"
+				chan="$(P)$(R)GC_RefTemperature"
 				clr=14
 				bclr=51
 			}
@@ -287,7 +287,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)RefTemperature_RBV"
+				chan="$(P)$(R)GC_RefTemperature_RBV"
 				clr=54
 				bclr=4
 			}
@@ -295,7 +295,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -319,7 +319,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)RefTempInternal"
+				chan="$(P)$(R)GC_RefTempInternal"
 				clr=14
 				bclr=51
 			}
@@ -335,7 +335,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)RefTempInternal_RBV"
+				chan="$(P)$(R)GC_RefTempInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -343,7 +343,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -367,7 +367,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)WindowTaoInternal"
+				chan="$(P)$(R)GC_WindowTaoInternal"
 				clr=14
 				bclr=51
 			}
@@ -383,7 +383,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)WindowTaoInternal_RBV"
+				chan="$(P)$(R)GC_WindowTaoInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -391,7 +391,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -415,7 +415,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)WinTransmission"
+				chan="$(P)$(R)GC_WinTransmission"
 				clr=14
 				bclr=51
 			}
@@ -431,7 +431,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)WinTransmission_RBV"
+				chan="$(P)$(R)GC_WinTransmission_RBV"
 				clr=54
 				bclr=4
 			}
@@ -439,7 +439,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -463,7 +463,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)WinTempInternal"
+				chan="$(P)$(R)GC_WinTempInternal"
 				clr=14
 				bclr=51
 			}
@@ -479,7 +479,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)WinTempInternal_RBV"
+				chan="$(P)$(R)GC_WinTempInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -487,7 +487,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -511,7 +511,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)WindowTemperature"
+				chan="$(P)$(R)GC_WindowTemperature"
 				clr=14
 				bclr=51
 			}
@@ -527,7 +527,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)WindowTemperature_RBV"
+				chan="$(P)$(R)GC_WindowTemperature_RBV"
 				clr=54
 				bclr=4
 			}
@@ -535,7 +535,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -559,7 +559,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)AtmTaoInternal"
+				chan="$(P)$(R)GC_AtmTaoInternal"
 				clr=14
 				bclr=51
 			}
@@ -575,7 +575,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)AtmTaoInternal_RBV"
+				chan="$(P)$(R)GC_AtmTaoInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -583,7 +583,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -607,7 +607,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)AtmTransmission"
+				chan="$(P)$(R)GC_AtmTransmission"
 				clr=14
 				bclr=51
 			}
@@ -623,7 +623,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)AtmTransmission_RBV"
+				chan="$(P)$(R)GC_AtmTransmission_RBV"
 				clr=54
 				bclr=4
 			}
@@ -631,7 +631,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -655,7 +655,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)AtmTempInternal"
+				chan="$(P)$(R)GC_AtmTempInternal"
 				clr=14
 				bclr=51
 			}
@@ -671,7 +671,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)AtmTempInternal_RBV"
+				chan="$(P)$(R)GC_AtmTempInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -679,7 +679,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -703,7 +703,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)AtmTemperature"
+				chan="$(P)$(R)GC_AtmTemperature"
 				clr=14
 				bclr=51
 			}
@@ -719,7 +719,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)AtmTemperature_RBV"
+				chan="$(P)$(R)GC_AtmTemperature_RBV"
 				clr=54
 				bclr=4
 			}
@@ -740,7 +740,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -765,7 +765,7 @@
     	textix="  ImageStreamControl"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -789,7 +789,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)DigitalOutput"
+				chan="$(P)$(R)GC_DigitalOutput"
 				clr=14
 				bclr=51
 			}
@@ -803,7 +803,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)DigitalOutput_RBV"
+				chan="$(P)$(R)GC_DigitalOutput_RBV"
 				clr=54
 				bclr=4
 			}
@@ -811,7 +811,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -835,7 +835,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)IRTestPattern"
+				chan="$(P)$(R)GC_IRTestPattern"
 				clr=14
 				bclr=51
 			}
@@ -849,7 +849,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)IRTestPattern_RBV"
+				chan="$(P)$(R)GC_IRTestPattern_RBV"
 				clr=54
 				bclr=4
 			}
@@ -857,7 +857,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -881,7 +881,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)XPMode"
+				chan="$(P)$(R)GC_XPMode"
 				clr=14
 				bclr=51
 			}
@@ -895,7 +895,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)XPMode_RBV"
+				chan="$(P)$(R)GC_XPMode_RBV"
 				clr=54
 				bclr=4
 			}
@@ -903,7 +903,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -927,7 +927,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)LVDSMode"
+				chan="$(P)$(R)GC_LVDSMode"
 				clr=14
 				bclr=51
 			}
@@ -941,7 +941,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)LVDSMode_RBV"
+				chan="$(P)$(R)GC_LVDSMode_RBV"
 				clr=54
 				bclr=4
 			}
@@ -949,7 +949,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -973,7 +973,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)CMOSBitDepth"
+				chan="$(P)$(R)GC_CMOSBitDepth"
 				clr=14
 				bclr=51
 			}
@@ -987,7 +987,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)CMOSBitDepth_RBV"
+				chan="$(P)$(R)GC_CMOSBitDepth_RBV"
 				clr=54
 				bclr=4
 			}
@@ -995,7 +995,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1019,7 +1019,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)LVDSBitDepth"
+				chan="$(P)$(R)GC_LVDSBitDepth"
 				clr=14
 				bclr=51
 			}
@@ -1033,7 +1033,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)LVDSBitDepth_RBV"
+				chan="$(P)$(R)GC_LVDSBitDepth_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1054,7 +1054,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=495
@@ -1079,7 +1079,7 @@
     	textix="  Mono8VideoControl"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1103,7 +1103,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)SenVideoStandard"
+				chan="$(P)$(R)GC_SenVideoStandard"
 				clr=14
 				bclr=51
 			}
@@ -1117,7 +1117,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)SenVideoStandard_RBV"
+				chan="$(P)$(R)GC_SenVideoStandard_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1125,7 +1125,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1149,7 +1149,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ImageAdjustMethod"
+				chan="$(P)$(R)GC_ImageAdjustMethod"
 				clr=14
 				bclr=51
 			}
@@ -1163,7 +1163,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ImageAdjustMethod_RBV"
+				chan="$(P)$(R)GC_ImageAdjustMethod_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1171,7 +1171,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1195,7 +1195,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)Contrast"
+				chan="$(P)$(R)GC_Contrast"
 				clr=14
 				bclr=51
 			}
@@ -1211,7 +1211,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)Contrast_RBV"
+				chan="$(P)$(R)GC_Contrast_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1219,7 +1219,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1243,7 +1243,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)Brightness"
+				chan="$(P)$(R)GC_Brightness"
 				clr=14
 				bclr=51
 			}
@@ -1259,7 +1259,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)Brightness_RBV"
+				chan="$(P)$(R)GC_Brightness_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1267,7 +1267,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1291,7 +1291,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)VideoOrientation"
+				chan="$(P)$(R)GC_VideoOrientation"
 				clr=14
 				bclr=51
 			}
@@ -1305,7 +1305,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)VideoOrientation_RBV"
+				chan="$(P)$(R)GC_VideoOrientation_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1313,7 +1313,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1337,7 +1337,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PlateauLevel"
+				chan="$(P)$(R)GC_PlateauLevel"
 				clr=14
 				bclr=51
 			}
@@ -1353,7 +1353,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PlateauLevel_RBV"
+				chan="$(P)$(R)GC_PlateauLevel_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1361,7 +1361,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1385,7 +1385,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ITTMidpoint"
+				chan="$(P)$(R)GC_ITTMidpoint"
 				clr=14
 				bclr=51
 			}
@@ -1401,7 +1401,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ITTMidpoint_RBV"
+				chan="$(P)$(R)GC_ITTMidpoint_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1409,7 +1409,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1433,7 +1433,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)BrightnessBias"
+				chan="$(P)$(R)GC_BrightnessBias"
 				clr=14
 				bclr=51
 			}
@@ -1449,7 +1449,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)BrightnessBias_RBV"
+				chan="$(P)$(R)GC_BrightnessBias_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1457,7 +1457,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1481,7 +1481,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)MaxAGCGain"
+				chan="$(P)$(R)GC_MaxAGCGain"
 				clr=14
 				bclr=51
 			}
@@ -1497,7 +1497,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)MaxAGCGain_RBV"
+				chan="$(P)$(R)GC_MaxAGCGain_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1505,7 +1505,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1529,7 +1529,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ITTFilter"
+				chan="$(P)$(R)GC_ITTFilter"
 				clr=14
 				bclr=51
 			}
@@ -1545,7 +1545,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ITTFilter_RBV"
+				chan="$(P)$(R)GC_ITTFilter_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1553,7 +1553,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1577,7 +1577,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)AGCROI"
+				chan="$(P)$(R)GC_AGCROI"
 				clr=14
 				bclr=51
 			}
@@ -1591,7 +1591,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)AGCROI_RBV"
+				chan="$(P)$(R)GC_AGCROI_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1612,7 +1612,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=495
@@ -1637,7 +1637,7 @@
     	textix="  TLParamsLockedCategory"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1661,7 +1661,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TLParamsLocked"
+				chan="$(P)$(R)GC_TLParamsLocked"
 				clr=14
 				bclr=51
 			}
@@ -1677,7 +1677,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TLParamsLocked_RBV"
+				chan="$(P)$(R)GC_TLParamsLocked_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1685,3 +1685,4 @@
 			limits {
 			}
 		}
+    

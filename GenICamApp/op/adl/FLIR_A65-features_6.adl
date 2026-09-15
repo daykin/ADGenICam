@@ -99,7 +99,7 @@
     		clr=2
     	}
     }
-
+    
 		text {
 			object {
 				x=0
@@ -110,7 +110,7 @@
 			"basic attribute" {
 				clr=54
 			}
-			textix="FLIR-A65 Features Screen #6 - $(P)$(R)"
+			textix="FLIR_A65 Features Screen #6 - $(P)$(R)"
 			align="horiz. centered"
 		}
     # (Rectangle)
@@ -126,7 +126,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -151,7 +151,7 @@
     	textix="  FunctionCapability"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -166,30 +166,16 @@
 			textix="IPEngineUseAnalogFeatures"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=70
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)IPEngUseAnaFea"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)IPEngUseAnaFea_RBV"
+				chan="$(P)$(R)GC_IPEngUseAnaFea_RBV"
 				clr=54
 				bclr=4
 			}
@@ -210,7 +196,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -235,7 +221,7 @@
     	textix="  AcquisitionConfiguration"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -259,7 +245,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0AcqCfgMemWa"
+				chan="$(P)$(R)GC_GrbCh0AcqCfgMemWa"
 				clr=14
 				bclr=51
 			}
@@ -273,7 +259,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0AcqCfgMemWa_RBV"
+				chan="$(P)$(R)GC_GrbCh0AcqCfgMemWa_RBV"
 				clr=54
 				bclr=4
 			}
@@ -281,7 +267,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -305,7 +291,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0AcqCfgPixBu"
+				chan="$(P)$(R)GC_GrbCh0AcqCfgPixBu"
 				clr=14
 				bclr=51
 			}
@@ -319,7 +305,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0AcqCfgPixBu_RBV"
+				chan="$(P)$(R)GC_GrbCh0AcqCfgPixBu_RBV"
 				clr=54
 				bclr=4
 			}
@@ -327,7 +313,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -351,7 +337,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0AcqCfgIncMe"
+				chan="$(P)$(R)GC_GrbCh0AcqCfgIncMe"
 				clr=14
 				bclr=51
 			}
@@ -365,7 +351,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0AcqCfgIncMe_RBV"
+				chan="$(P)$(R)GC_GrbCh0AcqCfgIncMe_RBV"
 				clr=54
 				bclr=4
 			}
@@ -373,7 +359,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -397,7 +383,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0AcqCfgInvPi"
+				chan="$(P)$(R)GC_GrbCh0AcqCfgInvPi"
 				clr=14
 				bclr=51
 			}
@@ -411,7 +397,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0AcqCfgInvPi_RBV"
+				chan="$(P)$(R)GC_GrbCh0AcqCfgInvPi_RBV"
 				clr=54
 				bclr=4
 			}
@@ -432,7 +418,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -457,7 +443,7 @@
     	textix="  TriggerConfiguration"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -481,7 +467,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0TriCfgFraTo"
+				chan="$(P)$(R)GC_GrbCh0TriCfgFraTo"
 				clr=14
 				bclr=51
 			}
@@ -497,7 +483,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0TriCfgFraTo_RBV"
+				chan="$(P)$(R)GC_GrbCh0TriCfgFraTo_RBV"
 				clr=54
 				bclr=4
 			}
@@ -505,7 +491,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -529,7 +515,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0TriCfgConPi"
+				chan="$(P)$(R)GC_GrbCh0TriCfgConPi"
 				clr=14
 				bclr=51
 			}
@@ -543,7 +529,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0TriCfgConPi_RBV"
+				chan="$(P)$(R)GC_GrbCh0TriCfgConPi_RBV"
 				clr=54
 				bclr=4
 			}
@@ -551,7 +537,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -575,7 +561,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0TriCfgAutIn"
+				chan="$(P)$(R)GC_GrbCh0TriCfgAutIn"
 				clr=14
 				bclr=51
 			}
@@ -589,7 +575,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0TriCfgAutIn_RBV"
+				chan="$(P)$(R)GC_GrbCh0TriCfgAutIn_RBV"
 				clr=54
 				bclr=4
 			}
@@ -597,7 +583,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -621,7 +607,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0TriCfgPLCTr"
+				chan="$(P)$(R)GC_GrbCh0TriCfgPLCTr"
 				clr=14
 				bclr=51
 			}
@@ -635,7 +621,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0TriCfgPLCTr_RBV"
+				chan="$(P)$(R)GC_GrbCh0TriCfgPLCTr_RBV"
 				clr=54
 				bclr=4
 			}
@@ -656,7 +642,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -681,7 +667,7 @@
     	textix="  GrabberMetadata"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -705,7 +691,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0MetInsMode"
+				chan="$(P)$(R)GC_GrbCh0MetInsMode"
 				clr=14
 				bclr=51
 			}
@@ -719,7 +705,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0MetInsMode_RBV"
+				chan="$(P)$(R)GC_GrbCh0MetInsMode_RBV"
 				clr=54
 				bclr=4
 			}
@@ -727,7 +713,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -751,7 +737,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0MetSouSel"
+				chan="$(P)$(R)GC_GrbCh0MetSouSel"
 				clr=14
 				bclr=51
 			}
@@ -765,7 +751,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0MetSouSel_RBV"
+				chan="$(P)$(R)GC_GrbCh0MetSouSel_RBV"
 				clr=54
 				bclr=4
 			}
@@ -773,7 +759,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -797,7 +783,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GrbCh0MetMsbOve"
+				chan="$(P)$(R)GC_GrbCh0MetMsbOve"
 				clr=14
 				bclr=51
 			}
@@ -811,7 +797,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GrbCh0MetMsbOve_RBV"
+				chan="$(P)$(R)GC_GrbCh0MetMsbOve_RBV"
 				clr=54
 				bclr=4
 			}
@@ -832,7 +818,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=495
@@ -857,7 +843,7 @@
     	textix="  CameraControl"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -881,14 +867,14 @@
     		height=20
     	}
     	control {
-    		chan="$(P)$(R)SensorSetDefaults.PROC"
+    		chan="$(P)$(R)GC_SensorSetDefaults.PROC"
     		clr=14
     		bclr=51
     	}
     	label="SensorSetDefaults"
     	press_msg="1"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -912,14 +898,14 @@
     		height=20
     	}
     	control {
-    		chan="$(P)$(R)NUCAction.PROC"
+    		chan="$(P)$(R)GC_NUCAction.PROC"
     		clr=14
     		bclr=51
     	}
     	label="NUCAction"
     	press_msg="1"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -943,7 +929,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)SensorGainMode"
+				chan="$(P)$(R)GC_SensorGainMode"
 				clr=14
 				bclr=51
 			}
@@ -957,7 +943,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)SensorGainMode_RBV"
+				chan="$(P)$(R)GC_SensorGainMode_RBV"
 				clr=54
 				bclr=4
 			}
@@ -965,7 +951,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -989,7 +975,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)NUCMode"
+				chan="$(P)$(R)GC_NUCMode"
 				clr=14
 				bclr=51
 			}
@@ -1003,7 +989,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)NUCMode_RBV"
+				chan="$(P)$(R)GC_NUCMode_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1011,7 +997,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1026,30 +1012,16 @@
 			textix="SensorExternalSync"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=170
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)SenExternalSync"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)SenExternalSync_RBV"
+				chan="$(P)$(R)GC_SenExternalSync_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1057,7 +1029,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1081,14 +1053,14 @@
     		height=20
     	}
     	control {
-    		chan="$(P)$(R)SenSetToFacDef.PROC"
+    		chan="$(P)$(R)GC_SenSetToFacDef.PROC"
     		clr=14
     		bclr=51
     	}
     	label="SensorSetToFactoryDefaults"
     	press_msg="1"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1112,7 +1084,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)SensorDDEGain"
+				chan="$(P)$(R)GC_SensorDDEGain"
 				clr=14
 				bclr=51
 			}
@@ -1128,7 +1100,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)SensorDDEGain_RBV"
+				chan="$(P)$(R)GC_SensorDDEGain_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1136,7 +1108,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1160,7 +1132,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)SensorDDEThrs"
+				chan="$(P)$(R)GC_SensorDDEThrs"
 				clr=14
 				bclr=51
 			}
@@ -1176,7 +1148,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)SensorDDEThrs_RBV"
+				chan="$(P)$(R)GC_SensorDDEThrs_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1184,7 +1156,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1208,7 +1180,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)SenDDESpatialThrs"
+				chan="$(P)$(R)GC_SenDDESpatialThrs"
 				clr=14
 				bclr=51
 			}
@@ -1224,7 +1196,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)SenDDESpatialThrs_RBV"
+				chan="$(P)$(R)GC_SenDDESpatialThrs_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1232,7 +1204,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1256,7 +1228,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)IgnoreCRC"
+				chan="$(P)$(R)GC_IgnoreCRC"
 				clr=14
 				bclr=51
 			}
@@ -1270,7 +1242,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)IgnoreCRC_RBV"
+				chan="$(P)$(R)GC_IgnoreCRC_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1278,7 +1250,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1302,7 +1274,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)NUCIntFramesW"
+				chan="$(P)$(R)GC_NUCIntFramesW"
 				clr=14
 				bclr=51
 			}
@@ -1318,7 +1290,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)NUCIntFramesW_RBV"
+				chan="$(P)$(R)GC_NUCIntFramesW_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1326,7 +1298,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1350,7 +1322,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)NUCTempDeltaW"
+				chan="$(P)$(R)GC_NUCTempDeltaW"
 				clr=14
 				bclr=51
 			}
@@ -1366,7 +1338,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)NUCTempDeltaW_RBV"
+				chan="$(P)$(R)GC_NUCTempDeltaW_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1374,7 +1346,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1389,32 +1361,16 @@
 			textix="LowGainDeltaTemp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)LowGainDeltaTemp"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)LowGainDeltaTemp_RBV"
+				chan="$(P)$(R)GC_LowGainDeltaTemp_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1422,7 +1378,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1437,32 +1393,16 @@
 			textix="HighGainDeltaTemp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=395
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)HighGainDeltaTemp"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=395
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)HighGainDeltaTemp_RBV"
+				chan="$(P)$(R)GC_HighGainDeltaTemp_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1470,7 +1410,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1485,32 +1425,16 @@
 			textix="NUCTempDeltaR"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=420
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)NUCTempDeltaR"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=420
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)NUCTempDeltaR_RBV"
+				chan="$(P)$(R)GC_NUCTempDeltaR_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1518,7 +1442,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1542,7 +1466,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)SensorDDEMode"
+				chan="$(P)$(R)GC_SensorDDEMode"
 				clr=14
 				bclr=51
 			}
@@ -1556,7 +1480,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)SensorDDEMode_RBV"
+				chan="$(P)$(R)GC_SensorDDEMode_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1564,7 +1488,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1579,32 +1503,16 @@
 			textix="NUCTempDelta"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=470
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)NUCTempDelta"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)NUCTempDelta_RBV"
+				chan="$(P)$(R)GC_NUCTempDelta_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1612,7 +1520,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1627,32 +1535,16 @@
 			textix="LowGainIntervalFrames"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=495
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)LowGaiIntFrames"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)LowGaiIntFrames_RBV"
+				chan="$(P)$(R)GC_LowGaiIntFrames_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1660,7 +1552,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1675,32 +1567,16 @@
 			textix="HighGainIntervalFrames"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=520
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)HigGaiIntFrames"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=520
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)HigGaiIntFrames_RBV"
+				chan="$(P)$(R)GC_HigGaiIntFrames_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1708,7 +1584,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1723,32 +1599,16 @@
 			textix="NUCIntervalFrames"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=545
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)NUCIntervalFrames"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=545
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)NUCIntervalFrames_RBV"
+				chan="$(P)$(R)GC_NUCIntervalFrames_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1756,7 +1616,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1780,7 +1640,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)BaudRate"
+				chan="$(P)$(R)GC_BaudRate"
 				clr=14
 				bclr=51
 			}
@@ -1794,7 +1654,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)BaudRate_RBV"
+				chan="$(P)$(R)GC_BaudRate_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1802,7 +1662,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1826,7 +1686,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ShutterPosition"
+				chan="$(P)$(R)GC_ShutterPosition"
 				clr=14
 				bclr=51
 			}
@@ -1840,7 +1700,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ShutterPosition_RBV"
+				chan="$(P)$(R)GC_ShutterPosition_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1848,7 +1708,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1872,7 +1732,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)CorrectionMask"
+				chan="$(P)$(R)GC_CorrectionMask"
 				clr=14
 				bclr=51
 			}
@@ -1888,7 +1748,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)CorrectionMask_RBV"
+				chan="$(P)$(R)GC_CorrectionMask_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1896,7 +1756,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1920,7 +1780,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)SensorDDEIndex"
+				chan="$(P)$(R)GC_SensorDDEIndex"
 				clr=14
 				bclr=51
 			}
@@ -1936,7 +1796,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)SensorDDEIndex_RBV"
+				chan="$(P)$(R)GC_SensorDDEIndex_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1944,7 +1804,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1968,7 +1828,7 @@
     		height=20
     	}
     	control {
-    		chan="$(P)$(R)NUCActionLong.PROC"
+    		chan="$(P)$(R)GC_NUCActionLong.PROC"
     		clr=14
     		bclr=51
     	}
@@ -1988,7 +1848,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=980
@@ -2013,7 +1873,7 @@
     	textix="  Measurement"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2037,7 +1897,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)R"
+				chan="$(P)$(R)GC_R"
 				clr=14
 				bclr=51
 			}
@@ -2053,7 +1913,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)R_RBV"
+				chan="$(P)$(R)GC_R_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2061,7 +1921,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2076,32 +1936,16 @@
 			textix="GetSpotInternal"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GetSpotInternal"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GetSpotInternal_RBV"
+				chan="$(P)$(R)GC_GetSpotInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2109,7 +1953,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2124,32 +1968,16 @@
 			textix="Spot"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=120
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)Spot"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)Spot_RBV"
+				chan="$(P)$(R)GC_Spot_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2157,7 +1985,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2181,7 +2009,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)BInternal"
+				chan="$(P)$(R)GC_BInternal"
 				clr=14
 				bclr=51
 			}
@@ -2197,7 +2025,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)BInternal_RBV"
+				chan="$(P)$(R)GC_BInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2205,7 +2033,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2229,7 +2057,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)B"
+				chan="$(P)$(R)GC_B"
 				clr=14
 				bclr=51
 			}
@@ -2245,7 +2073,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)B_RBV"
+				chan="$(P)$(R)GC_B_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2253,7 +2081,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2277,7 +2105,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)FInternal"
+				chan="$(P)$(R)GC_FInternal"
 				clr=14
 				bclr=51
 			}
@@ -2293,7 +2121,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)FInternal_RBV"
+				chan="$(P)$(R)GC_FInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2301,7 +2129,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2325,7 +2153,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)F"
+				chan="$(P)$(R)GC_F"
 				clr=14
 				bclr=51
 			}
@@ -2341,7 +2169,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)F_RBV"
+				chan="$(P)$(R)GC_F_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2349,7 +2177,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2373,7 +2201,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)OInternal"
+				chan="$(P)$(R)GC_OInternal"
 				clr=14
 				bclr=51
 			}
@@ -2389,7 +2217,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)OInternal_RBV"
+				chan="$(P)$(R)GC_OInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2397,7 +2225,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2412,32 +2240,16 @@
 			textix="O"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)O"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)O_RBV"
+				chan="$(P)$(R)GC_O_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2445,7 +2257,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2460,32 +2272,16 @@
 			textix="FLensInternal0"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=295
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)FLensInternal0"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)FLensInternal0_RBV"
+				chan="$(P)$(R)GC_FLensInternal0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2493,7 +2289,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2508,32 +2304,16 @@
 			textix="FLens0"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=320
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)FLens0"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)FLens0_RBV"
+				chan="$(P)$(R)GC_FLens0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2541,7 +2321,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2556,32 +2336,16 @@
 			textix="TauLensInternal0"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=345
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)TauLensInternal0"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TauLensInternal0_RBV"
+				chan="$(P)$(R)GC_TauLensInternal0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2589,7 +2353,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2604,32 +2368,16 @@
 			textix="TauLens0"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)TauLens0"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TauLens0_RBV"
+				chan="$(P)$(R)GC_TauLens0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2637,7 +2385,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2661,7 +2409,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)FLensInternal1"
+				chan="$(P)$(R)GC_FLensInternal1"
 				clr=14
 				bclr=51
 			}
@@ -2677,7 +2425,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)FLensInternal1_RBV"
+				chan="$(P)$(R)GC_FLensInternal1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2685,7 +2433,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2709,7 +2457,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)FLens1"
+				chan="$(P)$(R)GC_FLens1"
 				clr=14
 				bclr=51
 			}
@@ -2725,7 +2473,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)FLens1_RBV"
+				chan="$(P)$(R)GC_FLens1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2733,7 +2481,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2757,7 +2505,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TauLensInternal1"
+				chan="$(P)$(R)GC_TauLensInternal1"
 				clr=14
 				bclr=51
 			}
@@ -2773,7 +2521,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TauLensInternal1_RBV"
+				chan="$(P)$(R)GC_TauLensInternal1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2781,7 +2529,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2805,7 +2553,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TauLens1"
+				chan="$(P)$(R)GC_TauLens1"
 				clr=14
 				bclr=51
 			}
@@ -2821,7 +2569,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TauLens1_RBV"
+				chan="$(P)$(R)GC_TauLens1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2829,7 +2577,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2844,32 +2592,16 @@
 			textix="FNumber"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=495
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)FNumber"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)FNumber_RBV"
+				chan="$(P)$(R)GC_FNumber_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2877,7 +2609,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2892,32 +2624,16 @@
 			textix="Transmission"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=520
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)Transmission"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=520
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)Transmission_RBV"
+				chan="$(P)$(R)GC_Transmission_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2925,7 +2641,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2949,7 +2665,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)OInt"
+				chan="$(P)$(R)GC_OInt"
 				clr=14
 				bclr=51
 			}
@@ -2965,7 +2681,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)OInt_RBV"
+				chan="$(P)$(R)GC_OInt_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2973,7 +2689,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2997,7 +2713,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TemLinearMode"
+				chan="$(P)$(R)GC_TemLinearMode"
 				clr=14
 				bclr=51
 			}
@@ -3011,7 +2727,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TemLinearMode_RBV"
+				chan="$(P)$(R)GC_TemLinearMode_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3019,7 +2735,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -3043,7 +2759,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TemLinResolution"
+				chan="$(P)$(R)GC_TemLinResolution"
 				clr=14
 				bclr=51
 			}
@@ -3057,7 +2773,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TemLinResolution_RBV"
+				chan="$(P)$(R)GC_TemLinResolution_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3065,7 +2781,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -3080,32 +2796,16 @@
 			textix="RThgInternal"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=620
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)RThgInternal"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=620
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)RThgInternal_RBV"
+				chan="$(P)$(R)GC_RThgInternal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3113,7 +2813,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -3128,32 +2828,16 @@
 			textix="RThg"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=645
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)RThg"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=645
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)RThg_RBV"
+				chan="$(P)$(R)GC_RThg_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3161,7 +2845,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -3185,7 +2869,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)J1Internal"
+				chan="$(P)$(R)GC_J1Internal"
 				clr=14
 				bclr=51
 			}
@@ -3201,7 +2885,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)J1Internal_RBV"
+				chan="$(P)$(R)GC_J1Internal_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3209,7 +2893,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -3233,7 +2917,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)J1"
+				chan="$(P)$(R)GC_J1"
 				clr=14
 				bclr=51
 			}
@@ -3249,7 +2933,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)J1_RBV"
+				chan="$(P)$(R)GC_J1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3257,7 +2941,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -3272,32 +2956,16 @@
 			textix="OAShift"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=720
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)OAShift"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=720
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)OAShift_RBV"
+				chan="$(P)$(R)GC_OAShift_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3305,3 +2973,4 @@
 			limits {
 			}
 		}
+    

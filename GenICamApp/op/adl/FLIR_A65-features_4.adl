@@ -8,7 +8,7 @@
     		x=50
     		y=50
     		width=1460
-    		height=845
+    		height=670
     	}
     	clr=14
     	bclr=4
@@ -99,7 +99,7 @@
     		clr=2
     	}
     }
-
+    
 		text {
 			object {
 				x=0
@@ -110,7 +110,7 @@
 			"basic attribute" {
 				clr=54
 			}
-			textix="FLIR-A65 Features Screen #5 - $(P)$(R)"
+			textix="FLIR_A65 Features Screen #4 - $(P)$(R)"
 			align="horiz. centered"
 		}
     # (Rectangle)
@@ -126,7 +126,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -148,10 +148,10 @@
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  Q15"
+    	textix="  Q6"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -163,7 +163,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q15_Variable0"
+			textix="PLC_Q6_Variable0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -175,7 +175,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q15_Variable0"
+				chan="$(P)$(R)GC_PLC_Q6_Variable0"
 				clr=14
 				bclr=51
 			}
@@ -189,7 +189,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q15_Variable0_RBV"
+				chan="$(P)$(R)GC_PLC_Q6_Variable0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -197,7 +197,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -209,7 +209,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q15_Operator0"
+			textix="PLC_Q6_Operator0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -221,7 +221,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q15_Operator0"
+				chan="$(P)$(R)GC_PLC_Q6_Operator0"
 				clr=14
 				bclr=51
 			}
@@ -235,7 +235,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q15_Operator0_RBV"
+				chan="$(P)$(R)GC_PLC_Q6_Operator0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -243,7 +243,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -255,7 +255,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q15_Variable1"
+			textix="PLC_Q6_Variable1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -267,7 +267,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q15_Variable1"
+				chan="$(P)$(R)GC_PLC_Q6_Variable1"
 				clr=14
 				bclr=51
 			}
@@ -281,7 +281,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q15_Variable1_RBV"
+				chan="$(P)$(R)GC_PLC_Q6_Variable1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -289,7 +289,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -301,7 +301,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q15_Operator1"
+			textix="PLC_Q6_Operator1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -313,7 +313,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q15_Operator1"
+				chan="$(P)$(R)GC_PLC_Q6_Operator1"
 				clr=14
 				bclr=51
 			}
@@ -327,7 +327,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q15_Operator1_RBV"
+				chan="$(P)$(R)GC_PLC_Q6_Operator1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -335,7 +335,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -347,7 +347,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q15_Variable2"
+			textix="PLC_Q6_Variable2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -359,7 +359,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q15_Variable2"
+				chan="$(P)$(R)GC_PLC_Q6_Variable2"
 				clr=14
 				bclr=51
 			}
@@ -373,7 +373,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q15_Variable2_RBV"
+				chan="$(P)$(R)GC_PLC_Q6_Variable2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -381,7 +381,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -393,7 +393,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q15_Operator2"
+			textix="PLC_Q6_Operator2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -405,7 +405,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q15_Operator2"
+				chan="$(P)$(R)GC_PLC_Q6_Operator2"
 				clr=14
 				bclr=51
 			}
@@ -419,7 +419,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q15_Operator2_RBV"
+				chan="$(P)$(R)GC_PLC_Q6_Operator2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -427,7 +427,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -439,7 +439,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q15_Variable3"
+			textix="PLC_Q6_Variable3"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -451,7 +451,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q15_Variable3"
+				chan="$(P)$(R)GC_PLC_Q6_Variable3"
 				clr=14
 				bclr=51
 			}
@@ -465,7 +465,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q15_Variable3_RBV"
+				chan="$(P)$(R)GC_PLC_Q6_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -486,7 +486,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -508,10 +508,10 @@
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  Q16"
+    	textix="  Q7"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -523,7 +523,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q16_Variable0"
+			textix="PLC_Q7_Variable0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -535,7 +535,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q16_Variable0"
+				chan="$(P)$(R)GC_PLC_Q7_Variable0"
 				clr=14
 				bclr=51
 			}
@@ -549,7 +549,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q16_Variable0_RBV"
+				chan="$(P)$(R)GC_PLC_Q7_Variable0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -557,7 +557,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -569,7 +569,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q16_Operator0"
+			textix="PLC_Q7_Operator0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -581,7 +581,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q16_Operator0"
+				chan="$(P)$(R)GC_PLC_Q7_Operator0"
 				clr=14
 				bclr=51
 			}
@@ -595,7 +595,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q16_Operator0_RBV"
+				chan="$(P)$(R)GC_PLC_Q7_Operator0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -603,7 +603,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -615,7 +615,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q16_Variable1"
+			textix="PLC_Q7_Variable1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -627,7 +627,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q16_Variable1"
+				chan="$(P)$(R)GC_PLC_Q7_Variable1"
 				clr=14
 				bclr=51
 			}
@@ -641,7 +641,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q16_Variable1_RBV"
+				chan="$(P)$(R)GC_PLC_Q7_Variable1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -649,7 +649,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -661,7 +661,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q16_Operator1"
+			textix="PLC_Q7_Operator1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -673,7 +673,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q16_Operator1"
+				chan="$(P)$(R)GC_PLC_Q7_Operator1"
 				clr=14
 				bclr=51
 			}
@@ -687,7 +687,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q16_Operator1_RBV"
+				chan="$(P)$(R)GC_PLC_Q7_Operator1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -695,7 +695,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -707,7 +707,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q16_Variable2"
+			textix="PLC_Q7_Variable2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -719,7 +719,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q16_Variable2"
+				chan="$(P)$(R)GC_PLC_Q7_Variable2"
 				clr=14
 				bclr=51
 			}
@@ -733,7 +733,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q16_Variable2_RBV"
+				chan="$(P)$(R)GC_PLC_Q7_Variable2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -741,7 +741,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -753,7 +753,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q16_Operator2"
+			textix="PLC_Q7_Operator2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -765,7 +765,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q16_Operator2"
+				chan="$(P)$(R)GC_PLC_Q7_Operator2"
 				clr=14
 				bclr=51
 			}
@@ -779,7 +779,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q16_Operator2_RBV"
+				chan="$(P)$(R)GC_PLC_Q7_Operator2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -787,7 +787,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -799,7 +799,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q16_Variable3"
+			textix="PLC_Q7_Variable3"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -811,7 +811,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q16_Variable3"
+				chan="$(P)$(R)GC_PLC_Q7_Variable3"
 				clr=14
 				bclr=51
 			}
@@ -825,7 +825,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q16_Variable3_RBV"
+				chan="$(P)$(R)GC_PLC_Q7_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -846,7 +846,7 @@
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=10
@@ -868,10 +868,10 @@
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  Q17"
+    	textix="  Q8"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -883,7 +883,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q17_Variable0"
+			textix="PLC_Q8_Variable0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -895,7 +895,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q17_Variable0"
+				chan="$(P)$(R)GC_PLC_Q8_Variable0"
 				clr=14
 				bclr=51
 			}
@@ -909,7 +909,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q17_Variable0_RBV"
+				chan="$(P)$(R)GC_PLC_Q8_Variable0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -917,7 +917,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -929,7 +929,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q17_Operator0"
+			textix="PLC_Q8_Operator0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -941,7 +941,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q17_Operator0"
+				chan="$(P)$(R)GC_PLC_Q8_Operator0"
 				clr=14
 				bclr=51
 			}
@@ -955,7 +955,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q17_Operator0_RBV"
+				chan="$(P)$(R)GC_PLC_Q8_Operator0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -963,7 +963,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -975,7 +975,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q17_Variable1"
+			textix="PLC_Q8_Variable1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -987,7 +987,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q17_Variable1"
+				chan="$(P)$(R)GC_PLC_Q8_Variable1"
 				clr=14
 				bclr=51
 			}
@@ -1001,7 +1001,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q17_Variable1_RBV"
+				chan="$(P)$(R)GC_PLC_Q8_Variable1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1009,7 +1009,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1021,7 +1021,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q17_Operator1"
+			textix="PLC_Q8_Operator1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1033,7 +1033,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q17_Operator1"
+				chan="$(P)$(R)GC_PLC_Q8_Operator1"
 				clr=14
 				bclr=51
 			}
@@ -1047,7 +1047,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q17_Operator1_RBV"
+				chan="$(P)$(R)GC_PLC_Q8_Operator1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1055,7 +1055,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1067,7 +1067,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q17_Variable2"
+			textix="PLC_Q8_Variable2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1079,7 +1079,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q17_Variable2"
+				chan="$(P)$(R)GC_PLC_Q8_Variable2"
 				clr=14
 				bclr=51
 			}
@@ -1093,7 +1093,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q17_Variable2_RBV"
+				chan="$(P)$(R)GC_PLC_Q8_Variable2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1101,7 +1101,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1113,7 +1113,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q17_Operator2"
+			textix="PLC_Q8_Operator2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1125,7 +1125,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q17_Operator2"
+				chan="$(P)$(R)GC_PLC_Q8_Operator2"
 				clr=14
 				bclr=51
 			}
@@ -1139,7 +1139,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q17_Operator2_RBV"
+				chan="$(P)$(R)GC_PLC_Q8_Operator2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1147,7 +1147,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1159,7 +1159,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q17_Variable3"
+			textix="PLC_Q8_Variable3"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1171,7 +1171,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q17_Variable3"
+				chan="$(P)$(R)GC_PLC_Q8_Variable3"
 				clr=14
 				bclr=51
 			}
@@ -1185,7 +1185,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q17_Variable3_RBV"
+				chan="$(P)$(R)GC_PLC_Q8_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1199,14 +1199,14 @@
     		x=490
     		y=40
     		width=480
-    		height=280
+    		height=205
     	}
     	"basic attribute" {
     		clr=14
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=495
@@ -1228,10 +1228,10 @@
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  Rescaler0"
+    	textix="  Q9"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1243,7 +1243,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_rsl0_Granularity"
+			textix="PLC_Q9_Variable0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1255,7 +1255,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_rGranularity"
+				chan="$(P)$(R)GC_PLC_Q9_Variable0"
 				clr=14
 				bclr=51
 			}
@@ -1269,7 +1269,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_rGranularity_RBV"
+				chan="$(P)$(R)GC_PLC_Q9_Variable0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1277,7 +1277,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1289,7 +1289,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_rsl0_Multiplier"
+			textix="PLC_Q9_Operator0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1301,7 +1301,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_rMultiplier"
+				chan="$(P)$(R)GC_PLC_Q9_Operator0"
 				clr=14
 				bclr=51
 			}
@@ -1315,7 +1315,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_rMultiplier_RBV"
+				chan="$(P)$(R)GC_PLC_Q9_Operator0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1323,7 +1323,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1335,35 +1335,33 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_rsl0_Divider"
+			textix="PLC_Q9_Variable1"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
+    # (Menu Button)
+		menu {
 			object {
 				x=720
 				y=120
-				width=60
+				width=120
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_rsl0_Divider"
+				chan="$(P)$(R)GC_PLC_Q9_Variable1"
 				clr=14
 				bclr=51
-			}
-			limits {
 			}
 		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=845
 				y=120
 				width=120
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_rsl0_Divider_RBV"
+				chan="$(P)$(R)GC_PLC_Q9_Variable1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1371,7 +1369,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1383,7 +1381,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_rsl0_InputSignal"
+			textix="PLC_Q9_Operator1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1395,7 +1393,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_rInputSignal"
+				chan="$(P)$(R)GC_PLC_Q9_Operator1"
 				clr=14
 				bclr=51
 			}
@@ -1409,7 +1407,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_rInputSignal_RBV"
+				chan="$(P)$(R)GC_PLC_Q9_Operator1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1417,7 +1415,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1429,7 +1427,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_rsl0_BackupEnabled"
+			textix="PLC_Q9_Variable2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1441,7 +1439,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_rBacEnabled"
+				chan="$(P)$(R)GC_PLC_Q9_Variable2"
 				clr=14
 				bclr=51
 			}
@@ -1455,7 +1453,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_rBacEnabled_RBV"
+				chan="$(P)$(R)GC_PLC_Q9_Variable2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1463,47 +1461,45 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
 				x=495
 				y=195
 				width=220
-				height=14
+				height=20
 			}
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_rsl0_BackupSwitchoverDelay"
+			textix="PLC_Q9_Operator2"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
+    # (Menu Button)
+		menu {
 			object {
 				x=720
 				y=195
-				width=60
+				width=120
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_rBacSwiDelay"
+				chan="$(P)$(R)GC_PLC_Q9_Operator2"
 				clr=14
 				bclr=51
-			}
-			limits {
 			}
 		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=845
 				y=195
 				width=120
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_rBacSwiDelay_RBV"
+				chan="$(P)$(R)GC_PLC_Q9_Operator2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1511,19 +1507,19 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
 				x=495
 				y=220
 				width=220
-				height=16
+				height=20
 			}
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_rsl0_BackupInputSignal"
+			textix="PLC_Q9_Variable3"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1535,7 +1531,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_rBacInpSignal"
+				chan="$(P)$(R)GC_PLC_Q9_Variable3"
 				clr=14
 				bclr=51
 			}
@@ -1549,149 +1545,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_rBacInpSignal_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=495
-				y=245
-				width=220
-				height=16
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_rsl0_InputFrequency"
-			align="horiz. right"
-		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_rInpFrequency"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=785
-				y=245
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_rInpFrequency_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=495
-				y=270
-				width=220
-				height=16
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_rsl0_OutputFrequency"
-			align="horiz. right"
-		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_rOutFrequency"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=785
-				y=270
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_rOutFrequency_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=495
-				y=295
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_rsl0_SampleSize"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_rSampleSize"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=845
-				y=295
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_rSampleSize_RBV"
+				chan="$(P)$(R)GC_PLC_Q9_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1703,20 +1557,20 @@
     rectangle {
     	object {
     		x=490
-    		y=325
+    		y=250
     		width=480
-    		height=105
+    		height=205
     	}
     	"basic attribute" {
     		clr=14
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=495
-    		y=330
+    		y=255
     		width=470
     		height=20
     	}
@@ -1727,57 +1581,55 @@
     text {
     	object {
     		x=495
-    		y=330
+    		y=255
     		width=470
     		height=20
     	}
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  Delayer0"
+    	textix="  Q10"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
 				x=495
-				y=355
+				y=280
 				width=220
 				height=20
 			}
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_del0_DelayCount"
+			textix="PLC_Q10_Variable0"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
+    # (Menu Button)
+		menu {
 			object {
 				x=720
-				y=355
-				width=60
+				y=280
+				width=120
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_dDelayCount"
+				chan="$(P)$(R)GC_PLC_Q10_Variable0"
 				clr=14
 				bclr=51
-			}
-			limits {
 			}
 		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
-				y=355
+				x=845
+				y=280
 				width=120
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_dDelayCount_RBV"
+				chan="$(P)$(R)GC_PLC_Q10_Variable0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1785,19 +1637,157 @@
 			limits {
 			}
 		}
-
+    
+# (Static Text)
+		text {
+			object {
+				x=495
+				y=305
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q10_Operator0"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=720
+				y=305
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q10_Operator0"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=845
+				y=305
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q10_Operator0_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=495
+				y=330
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q10_Variable1"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=720
+				y=330
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q10_Variable1"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=845
+				y=330
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q10_Variable1_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=495
+				y=355
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q10_Operator1"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=720
+				y=355
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q10_Operator1"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=845
+				y=355
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q10_Operator1_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
 # (Static Text)
 		text {
 			object {
 				x=495
 				y=380
 				width=220
-				height=14
+				height=20
 			}
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_del0_ReferenceTimingSignal"
+			textix="PLC_Q10_Variable2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1809,7 +1799,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_dRefTimSignal"
+				chan="$(P)$(R)GC_PLC_Q10_Variable2"
 				clr=14
 				bclr=51
 			}
@@ -1823,7 +1813,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_dRefTimSignal_RBV"
+				chan="$(P)$(R)GC_PLC_Q10_Variable2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1831,7 +1821,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1843,7 +1833,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_del0_InputSignal"
+			textix="PLC_Q10_Operator2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1855,7 +1845,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_dInputSignal"
+				chan="$(P)$(R)GC_PLC_Q10_Operator2"
 				clr=14
 				bclr=51
 			}
@@ -1869,7 +1859,53 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_dInputSignal_RBV"
+				chan="$(P)$(R)GC_PLC_Q10_Operator2_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=495
+				y=430
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q10_Variable3"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=720
+				y=430
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q10_Variable3"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=845
+				y=430
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q10_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1881,20 +1917,20 @@
     rectangle {
     	object {
     		x=490
-    		y=435
+    		y=460
     		width=480
-    		height=280
+    		height=205
     	}
     	"basic attribute" {
     		clr=14
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=495
-    		y=440
+    		y=465
     		width=470
     		height=20
     	}
@@ -1905,63 +1941,17 @@
     text {
     	object {
     		x=495
-    		y=440
+    		y=465
     		width=470
     		height=20
     	}
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  CounterTriggerGenerator"
+    	textix="  Q11"
     	align="horiz. centered"
     }
-
-# (Static Text)
-		text {
-			object {
-				x=495
-				y=465
-				width=220
-				height=16
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_ts_trig_CounterSelect"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=465
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_tCouSelect"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=845
-				y=465
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_tCouSelect_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -1973,7 +1963,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_ts_trig0_Enable"
+			textix="PLC_Q11_Variable0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -1985,7 +1975,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_tEnable"
+				chan="$(P)$(R)GC_PLC_Q11_Variable0"
 				clr=14
 				bclr=51
 			}
@@ -1999,7 +1989,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_tEnable_RBV"
+				chan="$(P)$(R)GC_PLC_Q11_Variable0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2007,7 +1997,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2019,7 +2009,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_ts_trig1_Enable"
+			textix="PLC_Q11_Operator0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2031,7 +2021,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_tEnabl0"
+				chan="$(P)$(R)GC_PLC_Q11_Operator0"
 				clr=14
 				bclr=51
 			}
@@ -2045,7 +2035,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_tEnabl0_RBV"
+				chan="$(P)$(R)GC_PLC_Q11_Operator0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2053,7 +2043,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2065,7 +2055,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_ts_trig2_Enable"
+			textix="PLC_Q11_Variable1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2077,7 +2067,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_tEnabl1"
+				chan="$(P)$(R)GC_PLC_Q11_Variable1"
 				clr=14
 				bclr=51
 			}
@@ -2091,7 +2081,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_tEnabl1_RBV"
+				chan="$(P)$(R)GC_PLC_Q11_Variable1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2099,7 +2089,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2111,7 +2101,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_ts_trig3_Enable"
+			textix="PLC_Q11_Operator1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2123,7 +2113,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_tEnabl2"
+				chan="$(P)$(R)GC_PLC_Q11_Operator1"
 				clr=14
 				bclr=51
 			}
@@ -2137,7 +2127,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_tEnabl2_RBV"
+				chan="$(P)$(R)GC_PLC_Q11_Operator1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2145,7 +2135,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2157,35 +2147,33 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_ts_trig_Time"
+			textix="PLC_Q11_Variable2"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
+    # (Menu Button)
+		menu {
 			object {
 				x=720
 				y=590
-				width=60
+				width=120
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_ts_trig_Time"
+				chan="$(P)$(R)GC_PLC_Q11_Variable2"
 				clr=14
 				bclr=51
-			}
-			limits {
 			}
 		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=845
 				y=590
 				width=120
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_ts_trig_Time_RBV"
+				chan="$(P)$(R)GC_PLC_Q11_Variable2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2193,7 +2181,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2205,26 +2193,41 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_ts_trig_Arm"
+			textix="PLC_Q11_Operator2"
 			align="horiz. right"
 		}
-    # (Message Button)
-    "message button" {
-    	object {
-    		x=720
-    		y=615
-    		width=200
-    		height=20
-    	}
-    	control {
-    		chan="$(P)$(R)PLC_ts_trig_Arm.PROC"
-    		clr=14
-    		bclr=51
-    	}
-    	label="PLC_ts_trig_Arm"
-    	press_msg="1"
-    }
-
+    # (Menu Button)
+		menu {
+			object {
+				x=720
+				y=615
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q11_Operator2"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=845
+				y=615
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q11_Operator2_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
 # (Static Text)
 		text {
 			object {
@@ -2236,50 +2239,19 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_ts_trig_FIFOClear"
-			align="horiz. right"
-		}
-    # (Message Button)
-    "message button" {
-    	object {
-    		x=720
-    		y=640
-    		width=200
-    		height=20
-    	}
-    	control {
-    		chan="$(P)$(R)PLC_tFIFOClear.PROC"
-    		clr=14
-    		bclr=51
-    	}
-    	label="PLC_ts_trig_FIFOClear"
-    	press_msg="1"
-    }
-
-# (Static Text)
-		text {
-			object {
-				x=495
-				y=665
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_ts_trig_FIFOFull"
+			textix="PLC_Q11_Variable3"
 			align="horiz. right"
 		}
     # (Menu Button)
 		menu {
 			object {
 				x=720
-				y=665
+				y=640
 				width=120
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_tFIFOFull"
+				chan="$(P)$(R)GC_PLC_Q11_Variable3"
 				clr=14
 				bclr=51
 			}
@@ -2288,58 +2260,12 @@
 		"text update" {
 			object {
 				x=845
-				y=665
+				y=640
 				width=120
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_tFIFOFull_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=495
-				y=690
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_ts_trig_FIFOEmpty"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=690
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_tFIFOEmpty"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=845
-				y=690
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_tFIFOEmpty_RBV"
+				chan="$(P)$(R)GC_PLC_Q11_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2353,14 +2279,14 @@
     		x=975
     		y=40
     		width=480
-    		height=330
+    		height=205
     	}
     	"basic attribute" {
     		clr=14
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=980
@@ -2382,10 +2308,10 @@
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  PLCSpecialConfigurations"
+    	textix="  Q12"
     	align="horiz. centered"
     }
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2397,7 +2323,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="Line0Configuration"
+			textix="PLC_Q12_Variable0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2409,7 +2335,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)LinConfiguration"
+				chan="$(P)$(R)GC_PLC_Q12_Variable0"
 				clr=14
 				bclr=51
 			}
@@ -2423,7 +2349,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)LinConfiguration_RBV"
+				chan="$(P)$(R)GC_PLC_Q12_Variable0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2431,7 +2357,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2443,7 +2369,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="Line1Configuration"
+			textix="PLC_Q12_Operator0"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2455,7 +2381,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)LinConfiguratio0"
+				chan="$(P)$(R)GC_PLC_Q12_Operator0"
 				clr=14
 				bclr=51
 			}
@@ -2469,7 +2395,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)LinConfiguratio0_RBV"
+				chan="$(P)$(R)GC_PLC_Q12_Operator0_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2477,7 +2403,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2489,7 +2415,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="Line2Configuration"
+			textix="PLC_Q12_Variable1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2501,7 +2427,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)LinConfiguratio1"
+				chan="$(P)$(R)GC_PLC_Q12_Variable1"
 				clr=14
 				bclr=51
 			}
@@ -2515,7 +2441,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)LinConfiguratio1_RBV"
+				chan="$(P)$(R)GC_PLC_Q12_Variable1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2523,7 +2449,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2535,7 +2461,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="Line3Configuration"
+			textix="PLC_Q12_Operator1"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2547,7 +2473,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)LinConfiguratio2"
+				chan="$(P)$(R)GC_PLC_Q12_Operator1"
 				clr=14
 				bclr=51
 			}
@@ -2561,7 +2487,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)LinConfiguratio2_RBV"
+				chan="$(P)$(R)GC_PLC_Q12_Operator1_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2569,7 +2495,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2581,7 +2507,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q0_Configuration"
+			textix="PLC_Q12_Variable2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2593,7 +2519,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q0_Con"
+				chan="$(P)$(R)GC_PLC_Q12_Variable2"
 				clr=14
 				bclr=51
 			}
@@ -2607,7 +2533,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q0_Con_RBV"
+				chan="$(P)$(R)GC_PLC_Q12_Variable2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2615,7 +2541,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2627,7 +2553,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q1_Configuration"
+			textix="PLC_Q12_Operator2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2639,7 +2565,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q1_Con"
+				chan="$(P)$(R)GC_PLC_Q12_Operator2"
 				clr=14
 				bclr=51
 			}
@@ -2653,7 +2579,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q1_Con_RBV"
+				chan="$(P)$(R)GC_PLC_Q12_Operator2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2661,7 +2587,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -2673,7 +2599,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="PLC_Q2_Configuration"
+			textix="PLC_Q12_Variable3"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2685,7 +2611,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)PLC_Q2_Con"
+				chan="$(P)$(R)GC_PLC_Q12_Variable3"
 				clr=14
 				bclr=51
 			}
@@ -2699,237 +2625,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PLC_Q2_Con_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=245
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_Q3_Configuration"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=245
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_Q3_Con"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=245
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_Q3_Con_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=270
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_Q4_Configuration"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=270
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_Q4_Con"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=270
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_Q4_Con_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=295
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_Q5_Configuration"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_Q5_Con"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=295
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_Q5_Con_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=320
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_Q6_Configuration"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=320
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_Q6_Con"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=320
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_Q6_Con_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=345
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="PLC_Q7_Configuration"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=345
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)PLC_Q7_Con"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=345
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)PLC_Q7_Con_RBV"
+				chan="$(P)$(R)GC_PLC_Q12_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -2941,20 +2637,20 @@
     rectangle {
     	object {
     		x=975
-    		y=375
+    		y=250
     		width=480
-    		height=230
+    		height=205
     	}
     	"basic attribute" {
     		clr=14
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=980
-    		y=380
+    		y=255
     		width=470
     		height=20
     	}
@@ -2965,17 +2661,247 @@
     text {
     	object {
     		x=980
-    		y=380
+    		y=255
     		width=470
     		height=20
     	}
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  Uart0"
+    	textix="  Q13"
     	align="horiz. centered"
     }
-
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=280
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q13_Variable0"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=280
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q13_Variable0"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=280
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q13_Variable0_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=305
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q13_Operator0"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=305
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q13_Operator0"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=305
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q13_Operator0_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=330
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q13_Variable1"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=330
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q13_Variable1"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=330
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q13_Variable1_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=355
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q13_Operator1"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=355
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q13_Operator1"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=355
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q13_Operator1_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=380
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q13_Variable2"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=380
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q13_Variable2"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=380
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q13_Variable2_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
 # (Static Text)
 		text {
 			object {
@@ -2987,7 +2913,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="Uart0BaudRate"
+			textix="PLC_Q13_Operator2"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -2999,7 +2925,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)Uart0BaudRate"
+				chan="$(P)$(R)GC_PLC_Q13_Operator2"
 				clr=14
 				bclr=51
 			}
@@ -3013,7 +2939,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)Uart0BaudRate_RBV"
+				chan="$(P)$(R)GC_PLC_Q13_Operator2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3021,7 +2947,7 @@
 			limits {
 			}
 		}
-
+    
 # (Static Text)
 		text {
 			object {
@@ -3033,311 +2959,33 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="Uart0BaudRateFactor"
+			textix="PLC_Q13_Variable3"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
+    # (Menu Button)
+		menu {
 			object {
 				x=1205
 				y=430
-				width=60
+				width=120
 				height=20
 			}
 			control {
-				chan="$(P)$(R)UarBaudRateFactor"
+				chan="$(P)$(R)GC_PLC_Q13_Variable3"
 				clr=14
 				bclr=51
-			}
-			limits {
 			}
 		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1330
 				y=430
 				width=120
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)UarBaudRateFactor_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=455
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart0NumOfStopBits"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=455
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarNumOfStopBits"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=455
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarNumOfStopBits_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=480
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart0Parity"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=480
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)Uart0Parity"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=480
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)Uart0Parity_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=505
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart0Loopback"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=505
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)Uart0Loopback"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=505
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)Uart0Loopback_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=530
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart0ReadyToReceive"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=530
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarReadyToReceive"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=530
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarReadyToReceive_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=555
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart0BreakDetection"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=555
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarBreakDetection"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=555
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarBreakDetection_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=580
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart0BreakGeneration"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=580
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarBreGeneration"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=580
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarBreGeneration_RBV"
+				chan="$(P)$(R)GC_PLC_Q13_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3349,20 +2997,20 @@
     rectangle {
     	object {
     		x=975
-    		y=610
+    		y=460
     		width=480
-    		height=230
+    		height=205
     	}
     	"basic attribute" {
     		clr=14
     		fill="outline"
     	}
     }
-
+    
     rectangle {
     	object {
     		x=980
-    		y=615
+    		y=465
     		width=470
     		height=20
     	}
@@ -3373,17 +3021,293 @@
     text {
     	object {
     		x=980
-    		y=615
+    		y=465
     		width=470
     		height=20
     	}
     	"basic attribute" {
     		clr=54
     	}
-    	textix="  Uart1"
+    	textix="  Q14"
     	align="horiz. centered"
     }
-
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=490
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q14_Variable0"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=490
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q14_Variable0"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=490
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q14_Variable0_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=515
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q14_Operator0"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=515
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q14_Operator0"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=515
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q14_Operator0_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=540
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q14_Variable1"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=540
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q14_Variable1"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=540
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q14_Variable1_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=565
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q14_Operator1"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=565
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q14_Operator1"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=565
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q14_Operator1_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=590
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q14_Variable2"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=590
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q14_Variable2"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=590
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q14_Variable2_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
+# (Static Text)
+		text {
+			object {
+				x=980
+				y=615
+				width=220
+				height=20
+			}
+			"basic attribute" {
+				clr=14
+			}
+			textix="PLC_Q14_Operator2"
+			align="horiz. right"
+		}
+    # (Menu Button)
+		menu {
+			object {
+				x=1205
+				y=615
+				width=120
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_PLC_Q14_Operator2"
+				clr=14
+				bclr=51
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=1330
+				y=615
+				width=120
+				height=18
+			}
+			monitor {
+				chan="$(P)$(R)GC_PLC_Q14_Operator2_RBV"
+				clr=54
+				bclr=4
+			}
+			align="horiz. left"
+			limits {
+			}
+		}
+    
 # (Static Text)
 		text {
 			object {
@@ -3395,7 +3319,7 @@
 			"basic attribute" {
 				clr=14
 			}
-			textix="Uart1BaudRate"
+			textix="PLC_Q14_Variable3"
 			align="horiz. right"
 		}
     # (Menu Button)
@@ -3407,7 +3331,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)Uart1BaudRate"
+				chan="$(P)$(R)GC_PLC_Q14_Variable3"
 				clr=14
 				bclr=51
 			}
@@ -3421,7 +3345,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)Uart1BaudRate_RBV"
+				chan="$(P)$(R)GC_PLC_Q14_Variable3_RBV"
 				clr=54
 				bclr=4
 			}
@@ -3429,327 +3353,4 @@
 			limits {
 			}
 		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=665
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart1BaudRateFactor"
-			align="horiz. right"
-		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=665
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarBaudRateFacto0"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1270
-				y=665
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarBaudRateFacto0_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=690
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart1NumOfStopBits"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=690
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarNumOfStopBit0"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=690
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarNumOfStopBit0_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=715
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart1Parity"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=715
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)Uart1Parity"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=715
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)Uart1Parity_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=740
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart1Loopback"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=740
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)Uart1Loopback"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=740
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)Uart1Loopback_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=765
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart1ReadyToReceive"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=765
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarReadyToReceiv0"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=765
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarReadyToReceiv0_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=790
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart1BreakDetection"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=790
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarBreakDetectio0"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=790
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarBreakDetectio0_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
-
-# (Static Text)
-		text {
-			object {
-				x=980
-				y=815
-				width=220
-				height=20
-			}
-			"basic attribute" {
-				clr=14
-			}
-			textix="Uart1BreakGeneration"
-			align="horiz. right"
-		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=815
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)UarBreGeneratio0"
-				clr=14
-				bclr=51
-			}
-		}
-    # (Textupdate)
-		"text update" {
-			object {
-				x=1330
-				y=815
-				width=120
-				height=18
-			}
-			monitor {
-				chan="$(P)$(R)UarBreGeneratio0_RBV"
-				clr=54
-				bclr=4
-			}
-			align="horiz. left"
-			limits {
-			}
-		}
+    
