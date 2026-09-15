@@ -175,7 +175,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)PayloadSize_RBV"
+				chan="$(P)$(R)GC_PayloadSize_RBV"
 				clr=54
 				bclr=4
 			}
@@ -245,7 +245,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GevSCPSPacketSize"
+				chan="$(P)$(R)GC_GevSCPSPacketSize"
 				clr=14
 				bclr=51
 			}
@@ -261,7 +261,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GevSCPSPacketSize_RBV"
+				chan="$(P)$(R)GC_GevSCPSPacketSize_RBV"
 				clr=54
 				bclr=4
 			}
@@ -293,7 +293,7 @@
     		height=20
     	}
     	control {
-    		chan="$(P)$(R)GevSCPSFirTesPac.PROC"
+    		chan="$(P)$(R)GC_GevSCPSFirTesPac.PROC"
     		clr=14
     		bclr=51
     	}
@@ -324,7 +324,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)GevSCPSDoNotFra"
+				chan="$(P)$(R)GC_GevSCPSDoNotFra"
 				clr=14
 				bclr=51
 			}
@@ -338,7 +338,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)GevSCPSDoNotFra_RBV"
+				chan="$(P)$(R)GC_GevSCPSDoNotFra_RBV"
 				clr=54
 				bclr=4
 			}
@@ -408,7 +408,7 @@
     		height=20
     	}
     	control {
-    		chan="$(P)$(R)AcquisitionStart.PROC"
+    		chan="$(P)$(R)GC_AcquisitionStart.PROC"
     		clr=14
     		bclr=51
     	}
@@ -439,7 +439,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerOverlap_RBV"
+				chan="$(P)$(R)GC_TriggerOverlap_RBV"
 				clr=54
 				bclr=4
 			}
@@ -471,7 +471,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)AcqBurFrameCount"
+				chan="$(P)$(R)GC_AcqBurFrameCount"
 				clr=14
 				bclr=51
 			}
@@ -487,7 +487,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)AcqBurFrameCount_RBV"
+				chan="$(P)$(R)GC_AcqBurFrameCount_RBV"
 				clr=54
 				bclr=4
 			}
@@ -519,7 +519,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TriggerDenoise"
+				chan="$(P)$(R)GC_TriggerDenoise"
 				clr=14
 				bclr=51
 			}
@@ -535,7 +535,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerDenoise_RBV"
+				chan="$(P)$(R)GC_TriggerDenoise_RBV"
 				clr=54
 				bclr=4
 			}
@@ -567,7 +567,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TriggerMask"
+				chan="$(P)$(R)GC_TriggerMask"
 				clr=14
 				bclr=51
 			}
@@ -583,7 +583,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerMask_RBV"
+				chan="$(P)$(R)GC_TriggerMask_RBV"
 				clr=54
 				bclr=4
 			}
@@ -615,7 +615,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TriggerDebouncer"
+				chan="$(P)$(R)GC_TriggerDebouncer"
 				clr=14
 				bclr=51
 			}
@@ -631,7 +631,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerDebouncer_RBV"
+				chan="$(P)$(R)GC_TriggerDebouncer_RBV"
 				clr=54
 				bclr=4
 			}
@@ -663,7 +663,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TriggerDelay"
+				chan="$(P)$(R)GC_TriggerDelay"
 				clr=14
 				bclr=51
 			}
@@ -679,7 +679,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerDelay_RBV"
+				chan="$(P)$(R)GC_TriggerDelay_RBV"
 				clr=54
 				bclr=4
 			}
@@ -711,7 +711,7 @@
     		height=20
     	}
     	control {
-    		chan="$(P)$(R)TriggerSoftware.PROC"
+    		chan="$(P)$(R)GC_TriggerSoftware.PROC"
     		clr=14
     		bclr=51
     	}
@@ -742,7 +742,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TriggerActivation"
+				chan="$(P)$(R)GC_TriggerActivation"
 				clr=14
 				bclr=51
 			}
@@ -756,7 +756,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerActivation_RBV"
+				chan="$(P)$(R)GC_TriggerActivation_RBV"
 				clr=54
 				bclr=4
 			}
@@ -788,7 +788,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TriggerSource"
+				chan="$(P)$(R)GC_TriggerSource"
 				clr=14
 				bclr=51
 			}
@@ -802,7 +802,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerSource_RBV"
+				chan="$(P)$(R)GC_TriggerSource_RBV"
 				clr=54
 				bclr=4
 			}
@@ -834,7 +834,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TriggerMode"
+				chan="$(P)$(R)GC_TriggerMode"
 				clr=14
 				bclr=51
 			}
@@ -848,7 +848,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerMode_RBV"
+				chan="$(P)$(R)GC_TriggerMode_RBV"
 				clr=54
 				bclr=4
 			}
@@ -880,7 +880,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)TriggerSelector"
+				chan="$(P)$(R)GC_TriggerSelector"
 				clr=14
 				bclr=51
 			}
@@ -894,7 +894,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)TriggerSelector_RBV"
+				chan="$(P)$(R)GC_TriggerSelector_RBV"
 				clr=54
 				bclr=4
 			}
@@ -926,7 +926,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ExpAutHigRed"
+				chan="$(P)$(R)GC_ExpAutHigRed"
 				clr=14
 				bclr=51
 			}
@@ -940,7 +940,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ExpAutHigRed_RBV"
+				chan="$(P)$(R)GC_ExpAutHigRed_RBV"
 				clr=54
 				bclr=4
 			}
@@ -972,7 +972,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ExpAutUppLimAuto"
+				chan="$(P)$(R)GC_ExpAutUppLimAuto"
 				clr=14
 				bclr=51
 			}
@@ -986,7 +986,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ExpAutUppLimAuto_RBV"
+				chan="$(P)$(R)GC_ExpAutUppLimAuto_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1018,7 +1018,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ExpAutoUpperLimit"
+				chan="$(P)$(R)GC_ExpAutoUpperLimit"
 				clr=14
 				bclr=51
 			}
@@ -1034,7 +1034,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ExpAutoUpperLimit_RBV"
+				chan="$(P)$(R)GC_ExpAutoUpperLimit_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1066,7 +1066,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ExpAutoLowerLimit"
+				chan="$(P)$(R)GC_ExpAutoLowerLimit"
 				clr=14
 				bclr=51
 			}
@@ -1082,7 +1082,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ExpAutoLowerLimit_RBV"
+				chan="$(P)$(R)GC_ExpAutoLowerLimit_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1114,7 +1114,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ExpAutoReference"
+				chan="$(P)$(R)GC_ExpAutoReference"
 				clr=14
 				bclr=51
 			}
@@ -1130,7 +1130,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ExpAutoReference_RBV"
+				chan="$(P)$(R)GC_ExpAutoReference_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1162,7 +1162,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ExposureAuto"
+				chan="$(P)$(R)GC_ExposureAuto"
 				clr=14
 				bclr=51
 			}
@@ -1176,7 +1176,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ExposureAuto_RBV"
+				chan="$(P)$(R)GC_ExposureAuto_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1208,7 +1208,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)ExposureTime"
+				chan="$(P)$(R)GC_ExposureTime"
 				clr=14
 				bclr=51
 			}
@@ -1224,7 +1224,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)ExposureTime_RBV"
+				chan="$(P)$(R)GC_ExposureTime_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1256,7 +1256,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)IMX174WDRShutter2"
+				chan="$(P)$(R)GC_IMX174WDRShutter2"
 				clr=14
 				bclr=51
 			}
@@ -1272,7 +1272,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)IMX174WDRShutter2_RBV"
+				chan="$(P)$(R)GC_IMX174WDRShutter2_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1304,7 +1304,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)IMX17HarWDRShuMod"
+				chan="$(P)$(R)GC_IMX17HarWDRShuMod"
 				clr=14
 				bclr=51
 			}
@@ -1318,7 +1318,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)IMX17HarWDRShuMod_RBV"
+				chan="$(P)$(R)GC_IMX17HarWDRShuMod_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1350,7 +1350,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)IMX17HarWDREnable"
+				chan="$(P)$(R)GC_IMX17HarWDREnable"
 				clr=14
 				bclr=51
 			}
@@ -1364,7 +1364,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)IMX17HarWDREnable_RBV"
+				chan="$(P)$(R)GC_IMX17HarWDREnable_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1396,7 +1396,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)AcqFrameRate"
+				chan="$(P)$(R)GC_AcqFrameRate"
 				clr=14
 				bclr=51
 			}
@@ -1412,7 +1412,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)AcqFrameRate_RBV"
+				chan="$(P)$(R)GC_AcqFrameRate_RBV"
 				clr=54
 				bclr=4
 			}
@@ -1444,7 +1444,7 @@
     		height=20
     	}
     	control {
-    		chan="$(P)$(R)AcquisitionStop.PROC"
+    		chan="$(P)$(R)GC_AcquisitionStop.PROC"
     		clr=14
     		bclr=51
     	}
@@ -1475,7 +1475,7 @@
 				height=20
 			}
 			control {
-				chan="$(P)$(R)AcquisitionMode"
+				chan="$(P)$(R)GC_AcquisitionMode"
 				clr=14
 				bclr=51
 			}
@@ -1489,7 +1489,7 @@
 				height=18
 			}
 			monitor {
-				chan="$(P)$(R)AcquisitionMode_RBV"
+				chan="$(P)$(R)GC_AcquisitionMode_RBV"
 				clr=54
 				bclr=4
 			}
